@@ -12,13 +12,13 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 93vh;
+    height: 90vh;
     position: relative;
     
 }
 .main .box{
     background-color: black;
-    height: 93vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.7;
     position: absolute;
@@ -241,8 +241,20 @@ footer{
     border-radius: 6px;
 }
 
+@media screen and (max-width: 1200px){
+    nav{
+        max-width: 90vw;
+    }
+}
 
 @media screen and (max-width: 960px) {
+
+    .main{
+        height: 80vh;
+    }    
+    .main .box{
+        height: 80vh;
+    }    
     .first{
         flex-wrap: wrap;
         text-align: center;
@@ -269,7 +281,7 @@ footer{
         font-weight: 400;
     }
     nav{
-        max-width: 88vw;
+        max-width: 90vw;
     }
     nav img{
         width: 90px;
